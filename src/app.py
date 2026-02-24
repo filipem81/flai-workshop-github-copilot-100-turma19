@@ -20,26 +20,74 @@ app.mount("/static", StaticFiles(directory=os.path.join(Path(__file__).parent,
           "static")), name="static")
 
 # In-memory activity database
+# ...existing code...
+# Sample activities
 activities = {
     "Chess Club": {
-        "description": "Learn strategies and compete in chess tournaments",
-        "schedule": "Fridays, 3:30 PM - 5:00 PM",
-        "max_participants": 12,
-        "participants": ["michael@mergington.edu", "daniel@mergington.edu"]
+        "name": "Chess Club",
+        "description": "Learn and play chess with fellow students",
+        "schedule": "Tuesdays and Thursdays, 3:30 PM - 5:00 PM",
+        "category": "intellectual",
+        "participants": []
     },
     "Programming Class": {
-        "description": "Learn programming fundamentals and build software projects",
-        "schedule": "Tuesdays and Thursdays, 3:30 PM - 4:30 PM",
-        "max_participants": 20,
-        "participants": ["emma@mergington.edu", "sophia@mergington.edu"]
+        "name": "Programming Class",
+        "description": "Introduction to Python programming",
+        "schedule": "Mondays and Wednesdays, 4:00 PM - 6:00 PM",
+        "category": "intellectual",
+        "participants": []
     },
     "Gym Class": {
-        "description": "Physical education and sports activities",
-        "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
-        "max_participants": 30,
-        "participants": ["john@mergington.edu", "olivia@mergington.edu"]
+        "name": "Gym Class",
+        "description": "Physical education and fitness training",
+        "schedule": "Daily, 3:00 PM - 4:30 PM",
+        "category": "sports",
+        "participants": []
+    },
+    "Soccer Team": {
+        "name": "Soccer Team",
+        "description": "Competitive soccer training and matches",
+        "schedule": "Mondays, Wednesdays, and Fridays, 4:00 PM - 6:00 PM",
+        "category": "sports",
+        "participants": []
+    },
+    "Swimming Club": {
+        "name": "Swimming Club",
+        "description": "Learn swimming techniques and compete in meets",
+        "schedule": "Tuesdays and Thursdays, 5:00 PM - 6:30 PM",
+        "category": "sports",
+        "participants": []
+    },
+    "Art Studio": {
+        "name": "Art Studio",
+        "description": "Painting, drawing, and mixed media exploration",
+        "schedule": "Wednesdays and Fridays, 3:30 PM - 5:30 PM",
+        "category": "artistic",
+        "participants": []
+    },
+    "Drama Club": {
+        "name": "Drama Club",
+        "description": "Acting, theater performance, and stage production",
+        "schedule": "Tuesdays and Thursdays, 4:00 PM - 6:00 PM",
+        "category": "artistic",
+        "participants": []
+    },
+    "Debate Team": {
+        "name": "Debate Team",
+        "description": "Develop critical thinking and public speaking skills",
+        "schedule": "Mondays and Wednesdays, 3:30 PM - 5:00 PM",
+        "category": "intellectual",
+        "participants": []
+    },
+    "Science Club": {
+        "name": "Science Club",
+        "description": "Hands-on experiments and science competitions",
+        "schedule": "Thursdays and Fridays, 3:30 PM - 5:30 PM",
+        "category": "intellectual",
+        "participants": []
     }
 }
+# 
 
 
 @app.get("/")
