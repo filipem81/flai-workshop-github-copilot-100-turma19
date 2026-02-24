@@ -28,49 +28,49 @@ activities = {
         "description": "Learn and play chess with fellow students",
         "schedule": "Tuesdays and Thursdays, 3:30 PM - 5:00 PM",
         "category": "intellectual",
-        "participants": []
+        "participants": ["alice.smith@mergington.edu", "bob.jones@mergington.edu", "carol.white@mergington.edu"]
     },
     "Programming Class": {
         "name": "Programming Class",
         "description": "Introduction to Python programming",
         "schedule": "Mondays and Wednesdays, 4:00 PM - 6:00 PM",
         "category": "intellectual",
-        "participants": []
+        "participants": ["david.brown@mergington.edu", "emma.davis@mergington.edu"]
     },
     "Gym Class": {
         "name": "Gym Class",
         "description": "Physical education and fitness training",
         "schedule": "Daily, 3:00 PM - 4:30 PM",
         "category": "sports",
-        "participants": []
+        "participants": ["frank.miller@mergington.edu", "grace.wilson@mergington.edu", "henry.moore@mergington.edu", "iris.taylor@mergington.edu"]
     },
     "Soccer Team": {
         "name": "Soccer Team",
         "description": "Competitive soccer training and matches",
         "schedule": "Mondays, Wednesdays, and Fridays, 4:00 PM - 6:00 PM",
         "category": "sports",
-        "participants": []
+        "participants": ["jack.anderson@mergington.edu", "kate.thomas@mergington.edu"]
     },
     "Swimming Club": {
         "name": "Swimming Club",
         "description": "Learn swimming techniques and compete in meets",
         "schedule": "Tuesdays and Thursdays, 5:00 PM - 6:30 PM",
         "category": "sports",
-        "participants": []
+        "participants": ["liam.jackson@mergington.edu"]
     },
     "Art Studio": {
         "name": "Art Studio",
         "description": "Painting, drawing, and mixed media exploration",
         "schedule": "Wednesdays and Fridays, 3:30 PM - 5:30 PM",
         "category": "artistic",
-        "participants": []
+        "participants": ["mia.martin@mergington.edu", "noah.garcia@mergington.edu", "olivia.lopez@mergington.edu"]
     },
     "Drama Club": {
         "name": "Drama Club",
         "description": "Acting, theater performance, and stage production",
         "schedule": "Tuesdays and Thursdays, 4:00 PM - 6:00 PM",
         "category": "artistic",
-        "participants": []
+        "participants": ["peter.lee@mergington.edu", "quinn.harris@mergington.edu"]
     },
     "Debate Team": {
         "name": "Debate Team",
@@ -84,7 +84,7 @@ activities = {
         "description": "Hands-on experiments and science competitions",
         "schedule": "Thursdays and Fridays, 3:30 PM - 5:30 PM",
         "category": "intellectual",
-        "participants": []
+        "participants": ["rachel.clark@mergington.edu"]
     }
 }
 # 
